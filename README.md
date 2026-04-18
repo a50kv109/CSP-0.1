@@ -25,7 +25,7 @@ Modern AI systems are fragmented:
 
 ## Solution
 
-CSP introduces a standardized **passport for AI skills**:
+CSP introduces a standardized passport for AI skills:
 
 - Fixed, immutable structure (Passport)  
 - Measurable execution (Runtime)  
