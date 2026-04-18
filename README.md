@@ -1,6 +1,6 @@
 # CSP-0.1 — Cognitive Skill Passport
 
-CSP-0.1 is an open standard for describing, verifying, and transferring AI skills across systems.
+Open standard for describing, verifying, and transferring AI skills across systems.
 
 ---
 
@@ -8,40 +8,48 @@ CSP-0.1 is an open standard for describing, verifying, and transferring AI skill
 
 **Skill = Passport + Runtime Behavior**
 
-- **Passport** — immutable definition of a skill  
-- **Runtime** — dynamic execution in a specific environment  
+A skill is defined by two independent layers:
+- **Passport:** Immutable, author-signed description of skill definition and requirements
+- **Runtime:** Dynamic execution metrics and behavior in a specific environment
 
 ---
 
 ## Problem
 
-Modern AI systems are fragmented:
+Current AI systems suffer from:
 
-- Skills are platform-locked  
-- Behavior is unpredictable  
-- No standard way to compare or verify execution  
+- **Platform Lock-in:** Skills are tightly coupled to specific platforms and frameworks
+- **Unpredictable Behavior:** No standardized way to assess or compare skill performance across systems
+- **No Verification Standard:** Skills lack cryptographic identity and verifiable properties
+- **Fragmentation:** Each platform maintains its own skill representation, incompatible with others
 
 ---
 
 ## Solution
 
-CSP introduces a standardized passport for AI skills:
+CSP-0.1 introduces a minimal, strict protocol:
 
-- Fixed, immutable structure (Passport)  
-- Measurable execution (Runtime)  
-- Cross-system compatibility  
+- **Invariant Passport Structure:** Fixed, version-controlled definition of what a skill is and requires
+- **Measurable Runtime Behavior:** Quantifiable execution metrics tied to specific environments
+- **Cross-system Compatibility:** Skills described in CSP-0.1 are portable and interoperable
+- **Zero-Trust Architecture:** Skills can be verified without trusting a specific platform
 
 ---
 
-## How it works
+## How It Works
 
-Each skill is defined by a structured passport:
+### Passport Structure
+
+Each skill is defined by a structured Passport:
 
 ```yaml
 passport:
   core: "AG.SY.DATA"
-  description: "Analytical agent for structured reports"
+  description: "Analytical agent for structured data reports"
   requirements:
     reasoning_depth: 0.8
     structure: 0.9
     adaptability: 0.5
+  author: "example-org"
+  created: "2025-01-01T00:00:00Z"
+  version: "1.0"
