@@ -1,24 +1,35 @@
 # CSP-0.1 — Cognitive Skill Passport
 
-CSP-0.1 is an open standard for describing, verifying and transferring AI skills across systems.
+CSP-0.1 is an open standard for describing, verifying, and transferring AI skills across systems.
 
-**Core formula:**
+---
+
+## Core Concept
+
+**Skill = Passport + Runtime Behavior**
+
+- **Passport** — immutable definition of a skill  
+- **Runtime** — dynamic execution in a specific environment  
+
 ---
 
 ## Problem
 
-AI systems today are fragmented:
-- skills are platform-locked
-- behavior is unpredictable
-- no standard way to compare or verify execution
+Modern AI systems are fragmented:
+
+- Skills are platform-locked  
+- Behavior is unpredictable  
+- No standard way to compare or verify execution  
 
 ---
 
 ## Solution
 
-CSP introduces a **passport for AI skills**:
-- immutable definition (Passport)
-- dynamic execution layer (Runtime)
+CSP introduces a standardized **passport for AI skills**:
+
+- Fixed, immutable structure (Passport)  
+- Measurable execution (Runtime)  
+- Cross-system compatibility  
 
 ---
 
