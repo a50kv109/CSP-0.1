@@ -9,6 +9,7 @@ Open standard for describing, verifying, and transferring AI skills across syste
 **Skill = Passport + Runtime Behavior**
 
 A skill is defined by two independent layers:
+
 - **Passport:** Immutable, author-signed description of skill definition and requirements
 - **Runtime:** Dynamic execution metrics and behavior in a specific environment
 
@@ -29,8 +30,8 @@ Current AI systems suffer from:
 
 CSP-0.1 introduces a minimal, strict protocol:
 
-- **Invariant Passport Structure:** Fixed, version-controlled definition of what a skill is and requires
-- **Measurable Runtime Behavior:** Quantifiable execution metrics tied to specific environments
+- **Immutable Passport:** Fixed, version-controlled definition of what a skill is and requires
+- **Measurable Runtime:** Quantifiable execution metrics tied to specific environments
 - **Cross-system Compatibility:** Skills described in CSP-0.1 are portable and interoperable
 - **Zero-Trust Architecture:** Skills can be verified without trusting a specific platform
 
@@ -50,6 +51,6 @@ passport:
     reasoning_depth: 0.8
     structure: 0.9
     adaptability: 0.5
-  author: "example-org"
-  created: "2025-01-01T00:00:00Z"
-  version: "1.0"
+  meta:
+    author: "Artsybashev Andrii Oleksiiovych"
+    version: "1.0"
