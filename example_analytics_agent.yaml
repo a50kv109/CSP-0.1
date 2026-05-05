@@ -1,0 +1,62 @@
+# CSP-0.2 — Skill Passport Example
+# Skill: Analytics Report Agent
+# CORE: AG.SY.DATA
+
+passport:
+  core: "AG.SY.DATA"
+  description: >
+    Agent that synthesizes structured analytical reports from raw data arrays.
+    Identifies trends, detects anomalies, and produces recommendations.
+  requirements:
+    reasoning_depth: 0.8
+    structure:       0.9
+    adaptability:    0.5
+  meta:
+    author:  "Artsybashev Andrii Oleksiiovych"
+    origin:  "CSP-0.1 Reference Environment"
+    version: "1.0"
+
+verification:
+  created_at:         "2026-04-16"
+  verified_at:        "2026-04-16"
+  verification_level: "dbe_certified"
+
+compatibility:
+  input:
+    - category: "structured"
+      formats: ["csv", "json"]
+      capabilities:
+        - "parse_table"
+        - "detect_anomalies"
+    - category: "document"
+      formats: ["xlsx"]
+      capabilities:
+        - "parse_table"
+  output:
+    - category: "structured"
+      formats: ["json", "yaml"]
+    - category: "document"
+      formats: ["md"]
+  constraints:
+    max_file_size_mb: 50
+    encoding: "utf-8"
+
+runtime:
+  rating:      0.0
+  usage_count: 0
+  reliability:
+    success_rate: null
+    stability:    null
+  tdi:          0.0
+  last_updated: "2026-04-16"
+
+economic:
+  developer_share:       0.80
+  platform_share:        0.20
+  quality_bonus_enabled: true
+
+policy:
+  admission:
+    status: "accepted"
+  lifecycle:
+    state: "active"
