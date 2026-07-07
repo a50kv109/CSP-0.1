@@ -1,10 +1,33 @@
-# CSP-0.1 — Cognitive Skill Passport
+# CSP — Cognitive Skill Passport
 
-Open standard for describing, verifying, and transferring AI skills across systems.
+**Open standard for describing, validating, and exchanging cognitive components across heterogeneous AI ecosystems.**
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19639060.svg)](https://doi.org/10.5281/zenodo.19639060)
+[![Status](https://img.shields.io/badge/Status-Draft-yellow.svg)](#reference)
 
 ---
 
-## Core Concept
+## 🏛️ Project Governance & Architecture
+This repository is the reference home for the CSP standard. Before contributing, please read:
+- **[Problem Statement](PROBLEM-STATEMENT.md)** — Why the world needs CSP.
+- **[Project Manifest](MANIFEST.md)** — Mission and vision.
+- **[Ecosystem Architecture](ARCHITECTURE.md)** — Component interaction map.
+- **[Terminology](TERMINOLOGY.md)** — Canonical vocabulary.
+- **[Governance & Scope](GOVERNANCE.md)** — Engineering principles and scope.
+
+---
+
+## 🗺️ Quick Navigation
+
+- **[Standards](standards/)** — Canonical protocol specifications (CSP-0.1, CSP-0.2).
+- **[Examples](examples/)** — Sample passports and implementations.
+- **[Proposals](proposals/)** — Future concepts and draft extensions.
+- **[Roadmap](ROADMAP.md)** — Project evolution and future goals.
+- **[Changelog](CHANGELOG.md)** — History of engineering changes.
+
+---
+
+## 💡 Core Concept
 
 **Skill = Passport + Runtime Behavior**
 
@@ -118,15 +141,26 @@ Developer share of value should exceed platform share. Skills created and publis
 
 ---
 
-## Reference
+## 📚 Reference & Repository
 
 - **DOI:** [10.5281/zenodo.19639060](https://doi.org/10.5281/zenodo.19639060)
 - **Status:** CSP-0.1 (draft, no breaking changes)
-- **Next:** CSP-0.2 (additive), CSP-1.0 (stable)
+- **Next:** [CSP-0.2](standards/CSP-0.2.md) (additive), [CSP-TRUST-CONCEPT](proposals/CSP-TRUST-CONCEPT.md) (concept)
 
 ---
 
-## Contributing
+## 🏗️ Repository Structure
+
+- `standards/` — Verified specifications and protocol definitions.
+- `proposals/` — Draft concepts for ecosystem discussion.
+- `examples/` — Practical YAML passport examples.
+- `docs/` — Supporting documentation and PDF preprints.
+- `src/` — Source code for related tools (e.g., CSP Inspector).
+- `archive/` — Historical references and logs.
+
+---
+
+## 🤝 Contributing
 
 Contributions are welcome via Pull Requests.
 
