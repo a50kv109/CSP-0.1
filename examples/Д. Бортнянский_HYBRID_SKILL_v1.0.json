@@ -1,0 +1,44 @@
+{
+  "skill_name": "Д. Бортнянский_HYBRID_SKILL_v1.0",
+  "type": "musical_generation",
+  "components": {
+    "composer_core": "BORTNYANSKY",
+    "voice_cores": [
+      "basso_profundo",
+      "bass",
+      "bass",
+      "baritone",
+      "tenor",
+      "tenor",
+      "alto",
+      "alto",
+      "soprano",
+      "soprano"
+    ]
+  },
+  "parameters": {
+    "mode": "liturgical",
+    "tempo": 92,
+    "key": "D minor",
+    "rubato": 0.82,
+    "reverb": "Собор 4.5s",
+    "frequency": 432
+  },
+  "metrics": {
+    "tdi": 0.195,
+    "q_resonance": 98.4,
+    "gravity": 0.581,
+    "delta_peak": 0.702,
+    "s_core": 0.949,
+    "coherence": 0.8
+  },
+  "signature": "AAM-V1_ARTSYBASHEV_UA_KHARKIV_AIANALYSIS",
+  "validation_log": [
+    "[ВРАТА АЛЬОШІ] Ініціалізація перевірки...",
+    "[TDI-СЕНСОР] Поточний TDI: 0.195",
+    "[δ-ОПЕРАТОР] Фіксація δ-піка",
+    "720° Синхронізація завершена",
+    "[СТАТУС] ДОСТУП ДОЗВОЛЕНО. TDI в межах норми."
+  ],
+  "ready_for_lyria": true
+}

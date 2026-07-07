@@ -19,9 +19,13 @@ This repository is the reference home for the CSP standard. Before contributing,
 
 ## 🗺️ Quick Navigation
 
-- **[Standards](standards/)** — Canonical protocol specifications (CSP-0.1, CSP-0.2).
+- **[Standards](standards/)** — Canonical protocol specifications:
+    - [CSP-0.1](standards/CSP-0.1.md)
+    - [CSP-0.2](standards/CSP-0.2.md)
+    - [Reference Architecture](standards/CSP-REFERENCE-ARCHITECTURE.md)
+    - [Compliance 0.1](standards/CSP-COMPLIANCE-0.1.md)
 - **[Examples](examples/)** — Sample passports and implementations.
-- **[Proposals](proposals/)** — Future concepts and draft extensions.
+- **[Proposals](proposals/)** — Future concepts ([CSP-TRUST-CONCEPT](proposals/CSP-TRUST-CONCEPT.md)).
 - **[Roadmap](ROADMAP.md)** — Project evolution and future goals.
 - **[Changelog](CHANGELOG.md)** — History of engineering changes.
 
@@ -141,21 +145,21 @@ Developer share of value should exceed platform share. Skills created and publis
 
 ---
 
-## 📚 Reference & Repository
+## 📚 Reference & Status
 
 - **DOI:** [10.5281/zenodo.19639060](https://doi.org/10.5281/zenodo.19639060)
-- **Status:** CSP-0.1 (draft, no breaking changes)
-- **Next:** [CSP-0.2](standards/CSP-0.2.md) (additive), [CSP-TRUST-CONCEPT](proposals/CSP-TRUST-CONCEPT.md) (concept)
+- **Status:** Active Evolution (CSP-0.1, CSP-0.2 Published)
+- **Next Stage:** Tooling & Validation (see [Roadmap](ROADMAP.md))
 
 ---
 
 ## 🏗️ Repository Structure
 
-- `standards/` — Verified specifications and protocol definitions.
+- `standards/` — Canonical specifications (CSP, Architecture, Compliance).
 - `proposals/` — Draft concepts for ecosystem discussion.
 - `examples/` — Practical YAML passport examples.
 - `docs/` — Supporting documentation and PDF preprints.
-- `src/` — Source code for related tools (e.g., CSP Inspector).
+- `src/` — Source code for related tools (Validator, Inspector).
 - `archive/` — Historical references and logs.
 
 ---

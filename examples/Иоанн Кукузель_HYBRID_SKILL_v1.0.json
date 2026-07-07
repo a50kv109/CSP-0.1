@@ -1,0 +1,43 @@
+{
+  "skill_name": "Иоанн Кукузель_HYBRID_SKILL_v1.0",
+  "type": "musical_generation",
+  "components": {
+    "composer_core": "KUKUZEL",
+    "voice_cores": [
+      "basso_profundo",
+      "basso_profundo",
+      "bass",
+      "bass",
+      "baritone",
+      "baritone",
+      "tenor",
+      "tenor",
+      "tenor"
+    ]
+  },
+  "parameters": {
+    "mode": "liturgical",
+    "tempo": 92,
+    "key": "D minor",
+    "rubato": 0.82,
+    "reverb": "Монастырь 5.0s",
+    "frequency": 432
+  },
+  "metrics": {
+    "tdi": 0.257,
+    "q_resonance": 104.7,
+    "gravity": 0.747,
+    "delta_peak": 1.047,
+    "s_core": 0.926,
+    "coherence": 0.74
+  },
+  "signature": "AAM-V1_ARTSYBASHEV_UA_KHARKIV_AIANALYSIS",
+  "validation_log": [
+    "[ВРАТА АЛЬОШІ] Ініціалізація перевірки...",
+    "[TDI-СЕНСОР] Поточний TDI: 0.257",
+    "[δ-ОПЕРАТОР] Фіксація δ-піка",
+    "720° Синхронізація завершена",
+    "[СТАТУС] ДОСТУП ДОЗВОЛЕНО. TDI в межах норми."
+  ],
+  "ready_for_lyria": true
+}
